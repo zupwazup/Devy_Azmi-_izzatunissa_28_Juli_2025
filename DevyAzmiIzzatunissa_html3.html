@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <tittle>Register</tittle>
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="registerform">
+             <input type="text" id="nama" placeholder="Masukan Nama" 
+             required/>
+             <input type="email" id="email" placeholder="Masukan Email"
+             required/> 
+             <input type="password" id="password" placeholder="Masukan password"
+             required/>
+             <input type="datetime" id="tanggal" placeholder="Tanggal Lahir"
+             required/>
+             
+             <label>Jenis Kelamin</label>
+             <div class="radio-group">
+               <input type="radio" name="gender" id="Laki-laki" value="Laki-laki" required/>
+               <label for="Laki-laki">Laki-laki</label>
+               <input type="radio" name="gender" id="wanita" value="wanita"/>
+               <label for="Wanita">Wanita</label>
+             </div>
+             
+             <input type="text" id="tempat" placeholder="Tempat Tanggal Lahir" required/>
+             <input type="number" id="no_telp" placeholder="Masukan No Telp" required/>
+             <textarea id="alamat" rows="8" cols="40" placeholder="Masukan Alamat Lengkap" required></textarea>
+             
+             <input type="checkbox" id="setuju" />
+             <label for="setuju">Anda menyetujui Syarat dan Ketentuan</label>
+             
+             <button type="submit">Buat Akun</button>
+             
+      </form>
+    </div>
+  </body>
+</html>
